@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Rock Paper Scissors Game
+    </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1> Rock Paper Scissors Game</h1>
+    <h2>Choose:</h2>
+    <section class = "center-disp">
+        <ul >
+            <li class="li-icon"><img class="icon" src="images/rock-emoji.png" alt="Rock" 
+                onclick="play('rock')"></li>
+            <li class="li-icon"><img class="icon" src="images/paper-emoji.png" alt="Paper" 
+                onclick="play('paper')"></li>
+            <li class="li-icon"><img class="icon" src="images/scissors-emoji.png" alt="Scissors" 
+                onclick="play('scissors')"></li>
+        </ul>
+    </section>
+    <br>
+    <section class="center-disp">
+        <table >
+            <thead>
+                <th >You</th>
+                <th style="padding: 0.5em;">Vs</th>
+                <th>Computer</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="js-playerMove"></td>
+                    <td></td>
+                    <td class="js-computerMove"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section> 
+    <br>
+    <h2 class = 'js-resultMsg'> </h2>
+    <br>
+    <section class = 'center-disp'>
+        <table>
+            <thead>
+                <th >Wins | </th>
+                <th >Losses | </th>
+                <th> Ties | </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="js-wins"></td>
+                    <td class="js-losses"></td>
+                    <td class="js-ties"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+
+    <button class="btn" onclick="resetGame()"> Reset </button>
+        
+    <script src="index.js"> </script>
+</body>
+</html>

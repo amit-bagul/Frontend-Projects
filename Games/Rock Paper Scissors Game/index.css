@@ -1,0 +1,57 @@
+:root {
+  --bg-color: pink;
+  --text-color: black;
+  --btn-color: lightcyan;
+  --btn-color-hover: lightblue;
+  --border-color: blueviolet;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Arial','Times New Roman', Times, serif;
+    text-align: center;
+    color:var(--text-color);
+}
+.center-disp{
+    display: inline-block;
+}
+
+.li-icon{
+    text-align: left;
+    display: inline-flex;
+    list-style: none;
+    padding: 1em;
+    /* margin: 2em; */
+}
+.icon{
+    background-color: var(--btn-color);
+    height: 5em;
+    width: 5em;
+    border: 0.2em solid var(--border-color);
+    border-radius: 3em;
+    padding: 1.2em;
+}
+.icon:hover{
+    background-color: var(--btn-color-hover);
+    cursor: pointer;
+}
+
+.icon-sm{
+    height: 2.5em;
+    width: 2.5em;
+    background-color: var(--btn-color-hover);
+    border-radius: 2em;
+    padding: 0.4em;
+}
+
+.btn{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    border: 0.2em solid var(--border-color);
+    border-radius: 2em;
+    padding: 1.5em;
+} 
+.btn:hover{
+    background-color: var(--btn-color-hover) ;
+    cursor:pointer;
+}
