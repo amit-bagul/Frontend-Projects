@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
         Rock Paper Scissors Game
     </title>
@@ -13,11 +14,11 @@
     <h2>Choose:</h2>
     <section class = "center-disp">
         <ul >
-            <li class="li-icon"><img class="icon" src="images/rock-emoji.png" alt="Rock" 
+            <li class="li-icon"><img class="icon" src="images/rock-emoji.png" alt="Rock icon" 
                 onclick="play('rock')"></li>
-            <li class="li-icon"><img class="icon" src="images/paper-emoji.png" alt="Paper" 
+            <li class="li-icon"><img class="icon" src="images/paper-emoji.png" alt="Paper icon" 
                 onclick="play('paper')"></li>
-            <li class="li-icon"><img class="icon" src="images/scissors-emoji.png" alt="Scissors" 
+            <li class="li-icon"><img class="icon" src="images/scissors-emoji.png" alt="Scissors icon" 
                 onclick="play('scissors')"></li>
         </ul>
     </section>
@@ -25,9 +26,11 @@
     <section class="center-disp">
         <table >
             <thead>
-                <th >You</th>
-                <th style="padding: 0.5em;">Vs</th>
-                <th>Computer</th>
+                <tr>
+                    <th >You</th>
+                    <th style="padding: 0.5em;">Vs</th>
+                    <th>Computer</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -44,9 +47,11 @@
     <section class = 'center-disp'>
         <table>
             <thead>
-                <th >Wins | </th>
-                <th >Losses | </th>
-                <th> Ties | </th>
+                <tr>
+                    <th >Wins | </th>
+                    <th >Losses | </th>
+                    <th> Ties | </th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
